@@ -8,10 +8,11 @@
       name: nginx
       state: started
       enabled: yes
-  - name: run app pre-req
-    ansible.builtin.import role:
-      name: common
-      tasks_from: app-pre-req
+      
+  - name: run app pre-requisites
+    ansible.builtin.import_role:
+    name: common
+    tasks_from: app-pre-req
 
 
   - name: copy backend conf
