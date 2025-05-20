@@ -1,5 +1,5 @@
 login_user: root
-login_host: 172.31.81.87
+login_host: 172.31.89.237
 login_password: ExpenseApp@1
 DB_HOST: 172.31.89.237
 app_location: /app
